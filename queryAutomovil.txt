@@ -1,0 +1,16 @@
+create database proyectoFinal2;
+use proyectoFinal2;
+create table Vehiculo(
+codigoVehi varchar(20),
+propietariovehi varchar(30),
+tipoVehi varchar(30),
+modelo varchar(30),
+marca varchar(30),
+color varchar(15),
+precio varchar(15),
+primary key (codigovehi)
+)
+insert into Vehiculo(codigoVehi,propietariovehi,tipoVehi,modelo,marca,color,precio)
+              values('0903t','Khaterine Ordoñez','Automovil','Corolla','Toyota','Blanco','200000');
+
+select * from Vehiculo;

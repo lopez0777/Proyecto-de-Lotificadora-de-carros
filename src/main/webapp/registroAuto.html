@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro de Vehiculos</title>
+<link rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body>
+<form action="RegistrarVehiculo" method="post">
+<div class="main">  
+     <div class="navbar"> 
+         <div class ="icon">
+         <h1 class="logo" >Registro </h1>
+         </div>
+      </div> 
+      <div class= "menu"><!--clase menu-->
+              <ul> 
+            <li><a href=menu.html>Volver al menu principal</a></li>  
+             <li><a href = "ConsultarVehiculo">Consulta de Vehiculo</a></li>
+            
+         </ul>
+      </div>
+      <br>    
+      <table>
+  <tr><td><h2>---------</h2></td><td><h2>Codigo Vehiculo:</h2></td><td><input  type="text" name="txtCodigo" /></td></tr>
+  <tr><td><h2>---------</h2></td><td><h2>Propietario:</h2></td><td><input type="text" name="txtPropietario"/></td></tr>
+  <tr><td><h2>---------</h2></td><td><h2>Tipo Vehiculo:</h2></td><td>
+  <select name="tipo" style="width:150px">
+  <option>Automovil</option>
+  <option>Camioneta</option>
+  <option>Motocicleta</option>
+  <option>Otros</option>
+  </select>
+  <tr><td><h2>---------</h2></td><td><h2>Modelo</h2></td><td><input  class="cont" type="Text" name="txtModelo"/></td></tr>
+  <tr><td><h2>---------</h2></td><td><h2>Marca:</h2></td><td>
+  <select name="marca" style="width:150px">
+  <option>Toyota</option>
+  <option>Honda</option>
+  <option>Hyundai</option>
+  <option>Otros</option>
+  </select>
+  <tr><td><h2>---------</h2></td><td><h2>Color:</h2></td><td><input type="text" name="txtColor"/></td></tr>
+  <tr><td><h2>---------</h2></td><td><h2>Precio:</h2></td><td><input type="text" name="txtPrecio"/></td></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr><td><h2>---------</h2></td><td></td><td colspan="2"><input type="submit" value="Registrar" class="boton"/></td></tr>
+  
+</table>
+ </div>
+ 
+ 
+ 
+ 
+ </form>
+</body>
+</html>

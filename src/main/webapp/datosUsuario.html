@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sistema de prueba</title>
+
+
+</head>
+<body>
+ <h1>Ingrese los datos del usuario</h1>
+ <form action="AgregarUsuario" method="post">
+ <table>
+   <tr><td>Codigo Usuario: </td>
+   		<td><input type="text" name="codUsuario"/></td>
+   	</tr>
+   	<tr><td>Nombre Usuario: </td>
+   		<td><input type="text" name="nombreUsuario"/></td>
+   	</tr>
+   	<tr><td>Contrasena: </td>
+   		<td><input type="text" name="contrasena"/></td>
+   	</tr>
+   	<tr><td>Email: </td>
+   		<td><input type="text" name="email"/></td>
+   	</tr>
+   	<tr><td>Estado: </td>
+   		<td>
+   			<input type="radio" name="rbEstado" id="hab" value="1"  checked="checked">
+   			<label for="hab">Habilitado</label>
+   			<input type="radio" name="rbEstado" id="inh" value="0">
+   			<label for="inh">Inhabilitado</label>
+   		</td>
+   		<td><input type="submit" value="Agregar usuario"/></td>
+   	</tr>
+     
+ </table> 
+ </form>
+ <br>
+    		<a href = "ConsultarUsuario">Consultar datos de los usuarios</a></li>
+    		<br><br><br>
+    		<a href = "menu.html">Volver al menu principal</a></li>
+</body>
+</html>
